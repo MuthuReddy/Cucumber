@@ -19,7 +19,11 @@ public class Reporting {
 		jsonFiles.add(jsonFile);
 		ReportBuilder builder = new ReportBuilder(jsonFiles, configuration);
 		builder.generateReports();
+
 		System.out.println("Parthi");
+		
+		System.out.println("hii");
+
 
 	}
 }
